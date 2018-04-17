@@ -1,0 +1,15 @@
+.Main-Article_type_medium{
+  height: 365px;
+}
+
+@media screen and (max-width: 1050px) {
+  .Main-Article_type_medium{ 
+    height: 305px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .Main-Article_type_medium{ 
+    height: 280px;
+  }
+}

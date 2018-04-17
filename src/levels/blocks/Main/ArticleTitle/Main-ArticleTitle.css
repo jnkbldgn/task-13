@@ -1,0 +1,4 @@
+.Main-ArticleTitle{
+    grid-area: title;
+    overflow: hidden;
+}

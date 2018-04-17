@@ -1,0 +1,17 @@
+.Main-Article_type_medium {
+  height: 305px;
+}
+.Main-Article_type_medium .App-Main-ArticlePicture img{
+  height: 100%;
+  width: auto;
+}
+.Main-Article_type_medium .Main-ArticleTitle{
+  overflow: hidden;
+  max-height: 3rem;
+}
+@media all and (max-width: 344px){
+  .Main-Article_type_medium{
+    grid-column-end: span 12;
+    height: 300px;
+  }
+}

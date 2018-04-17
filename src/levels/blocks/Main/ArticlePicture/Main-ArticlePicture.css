@@ -1,0 +1,7 @@
+.Main-ArticlePicture{
+  grid-area: image;
+}
+
+.Main-ArticlePicture .App-Main-ArticleImage{
+  width: 100%
+}

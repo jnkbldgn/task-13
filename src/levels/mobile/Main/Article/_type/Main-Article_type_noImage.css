@@ -1,0 +1,26 @@
+.Main-Article_type_noImage{
+  height: 255px;
+  grid-column-end: span 6;
+}
+
+.Main-Article_type_noImage .Main-ArticleDescription{
+  max-height: 8.5rem;
+}
+
+.Main-Article_type_noImage .Main-ArticleTitle{
+  max-height: 4.5rem;
+}
+@media all and (max-width: 420px){
+  .Main-Article_type_noImage{
+    height: 185px;
+  }
+  
+  .Main-Article_type_noImage .Main-ArticleDescription{
+    max-height: 5rem;
+        line-height: 1rem;
+  }
+  
+  .Main-Article_type_noImage .Main-ArticleTitle{
+    max-height: 3.1rem;
+  }
+}

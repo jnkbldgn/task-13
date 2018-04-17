@@ -1,0 +1,17 @@
+
+.App-Header{
+  max-width: 1024px;
+}
+
+@media screen and (max-width: 1050px) {
+  .App-Header{
+    max-width: 704px;
+  }
+}
+
+@media all and (max-width: 720px){
+  .App-Header{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

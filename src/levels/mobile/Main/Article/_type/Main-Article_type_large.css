@@ -1,0 +1,16 @@
+.Main-Article_type_large{
+  grid-template-columns: auto auto;
+  grid-template-rows: auto 1fr 62px;
+  grid-template-areas: "title title"
+                       "image image"
+                       "descriptions actions";
+}
+
+.Main-Article_type_large .Main-ArticleActions{
+  flex-direction: column;
+  height: 100%;
+}
+
+.Main-Article_type_large .Main-ArticleActions .App-Main-ArticleActions-Like{
+  order: 1;
+}

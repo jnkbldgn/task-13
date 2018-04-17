@@ -1,0 +1,16 @@
+.App-Main{
+  max-width: 1024px;
+}
+
+@media screen and (max-width: 1050px) {
+  .App-Main{
+    max-width: 704px;
+    grid-row-gap: 30px;
+  }
+}
+
+@media all and (max-width: 720px){ 
+  .App-Main{
+    padding: 10px 15px;
+  }
+}

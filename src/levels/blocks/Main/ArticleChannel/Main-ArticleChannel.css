@@ -1,0 +1,6 @@
+.Main-ArticleChannel{
+  grid-area: channel;
+  line-height: 16px;
+  font-size: 14px;
+  color: #000000;
+}

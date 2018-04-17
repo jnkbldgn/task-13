@@ -1,0 +1,16 @@
+.Main-Article_type_noDescription{
+  grid-column-end: span 4;
+  height: 310px;
+}
+
+@media screen and (max-width: 1050px) {
+  .Main-Article_type_noDescription{
+    height: 234px;
+  }
+}
+
+@media screen and (max-width: 720зч) {
+  .Main-Article_type_noDescription{
+    height: 215px;
+  }
+}

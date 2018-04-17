@@ -1,0 +1,11 @@
+.Main-ArticleDescription{
+    font-size: 18px;
+    max-height: 13.5rem;
+}
+
+@media screen and (max-width: 1050px) { 
+  .Main-ArticleDescription{
+    font-size: 14px;
+    max-height: 10rem;
+  }
+}

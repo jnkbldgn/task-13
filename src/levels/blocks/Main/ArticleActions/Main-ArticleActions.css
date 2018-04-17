@@ -1,0 +1,28 @@
+.Main-ArticleActions{
+  grid-area: actions;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    padding: 0 10px;
+}
+
+.App-Main-ArticleActions-Like{
+  background: url(../../../../icons/heart.png);
+  cursor: pointer;
+  height: 17px;
+  width: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.App-Main-ArticleActions-Options{
+  background: url(../../../../icons/actions.png);
+  cursor: pointer;
+  height: 4px;
+  width: 14px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

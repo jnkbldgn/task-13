@@ -1,0 +1,34 @@
+.Main-Article_type_medium{
+  grid-template-areas: "title title"
+                      "image image"
+                      "descriptions actions";
+  grid-template-columns: auto auto;
+  grid-template-rows: auto 1fr 62px;
+  grid-column-end: span 6;
+                
+}
+.Main-Article_type_medium .Main-ArticleTitle{
+  line-height: 23px;
+  overflow: auto;
+}
+
+.Main-Article_type_medium .Main-ArticlePicture{
+  overflow: hidden;
+  position: relative;
+}
+
+.Main-Article_type_medium .Main-ArticlePicture .App-Main-ArticleImage{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.Main-Article_type_medium .Main-ArticleActions{
+  flex-direction: column;
+  height: 100%;
+}
+
+.Main-Article_type_medium .App-Main-ArticleActions-Like{
+  order: 1;
+}

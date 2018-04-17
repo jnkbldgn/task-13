@@ -1,0 +1,11 @@
+.Main-Article_type_noImage{
+  grid-template-areas: "title title"
+                        "descriptions descriptions"
+                        "channel actions";
+  grid-template-columns: auto 65px;
+  grid-template-rows: auto 1fr 40px;
+}
+
+.Main-Article_type_noImage .App-Main-ArticleActions-Like{
+  order: 1;
+}

@@ -1,0 +1,24 @@
+.Main-Article_type_noImage{
+  height: 310px;
+  grid-column-end: span 4;
+}
+
+@media screen and (max-width: 1050px) {
+  .Main-Article_type_noImage{
+    height: 234px;
+  }
+
+  .Main-Article_type_noImage .Main-ArticleDescription{
+    line-height: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .Main-Article_type_noImage{
+    height: 215px;
+  }
+
+  .Main-Article_type_noImage .Main-ArticleDescription{
+    max-height: 8rem;
+  }
+}

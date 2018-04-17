@@ -1,0 +1,7 @@
+.Main-Article_type_large{
+  grid-template-columns: 65% auto;
+  grid-template-rows: 48px auto 27px;
+  grid-template-areas: "image title"
+                       "image descriptions"
+                       "image actions";
+}

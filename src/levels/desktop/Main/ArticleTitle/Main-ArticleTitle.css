@@ -1,0 +1,8 @@
+.Main-ArticleTitle{
+    font-size: 21px;
+}
+@media screen and (max-width: 1050px) {
+  .Main-ArticleTitle{
+    font-size: 19px;
+  }
+}

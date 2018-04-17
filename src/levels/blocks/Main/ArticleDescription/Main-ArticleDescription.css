@@ -1,0 +1,27 @@
+.Main-ArticleDescription{
+    grid-area: descriptions;
+    overflow: hidden;
+    font-size: 18px;
+    max-height: 13.5rem;
+    color: #000000;
+    line-height: 20px;
+    text-overflow: ellipsis;
+}
+.App-ArticleActions-Options{
+  background: url(../../../../icons/heart.png);
+  cursor: pointer;
+  height: 17px;
+  width: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.App-ArticleActions-Like{
+  background: url(../../../../icons/actions.png);
+  cursor: pointer;
+  height: 4px;
+  width: 14px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

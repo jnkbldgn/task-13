@@ -1,0 +1,36 @@
+.Main-Article_type_noDescription {
+  grid-template-columns: auto auto;
+  grid-template-rows: auto 1fr;
+  grid-template-areas: "title title"
+                        "image image";
+}
+
+.Main-Article_type_noDescription .Main-ArticleTitle{
+  font-size: 17px;
+  max-height: 3.5em;
+}
+
+.Main-Article_type_noDescription .Main-ArticlePicture{
+  position: relative;
+  overflow: hidden;
+}
+
+.Main-Article_type_noDescription .Main-ArticlePicture .App-Main-ArticleImage{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.Main-Article_type_noDescription .Main-ArticleActions{
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  top: 0;  
+}
+.Main-Article_type_noDescription .App-Main-ArticleActions-Like{
+  order: 1;
+}
