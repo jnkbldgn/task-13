@@ -11,9 +11,6 @@ app.get('/', function(req, res) {
   if(req.useragent.isMobile) {
     res.sendFile(path.join(__dirname, './html', 'mobile.html'))
   } 
-  else if (req.useragent.isTablet) {
-    res.sendFile(path.join(__dirname, './html', 'tablet.html'))
-  }
   else {
     res.sendFile(path.join(__dirname, './html', 'desktop.html'))
   }
